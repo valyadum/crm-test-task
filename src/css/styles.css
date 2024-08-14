@@ -19,7 +19,7 @@
   letter-spacing: -0.14px;
 
   color: #000;
-  background-color: rgb(227, 170, 170);
+  background-color: #fff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -35,7 +35,6 @@ html {
 .wrapper {
   display: flex;
   height: 150vh;
-
 }
 
 .sidebar {
@@ -161,6 +160,7 @@ html {
 }
 .sidebar{
  padding: 37px 28px;
+ position: relative;
 }
 .sidebar-logo{
  display: flex;
@@ -209,6 +209,25 @@ color: #000;
   font-weight: 500;
 }
 .sidebar-list li.active-item svg{
-
  stroke: #fff !important;
 }
+.sidebar-user{
+position: absolute;
+bottom: 76px;
+display: flex;
+align-items: center;
+gap: 12px;
+}
+.sidebar-user-info-name{
+  color: #000;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+}
+.sidebar-user-info-role{
+  color: #757575;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.12px;
+}
+
+
