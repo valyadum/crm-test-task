@@ -1,0 +1,75 @@
+table {
+    table-layout: fixed;
+    /* width: 100%; */
+    border-collapse: collapse;
+    color: #292D32;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.14px;
+
+
+}
+
+
+thead th {
+    border-bottom: 1px solid #EEE;
+        height: 69px;
+        color: #B5B7C0;
+    
+        text-align: center;
+    
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.14px;
+}
+
+/* Загальний стиль для комірок */
+td {
+    padding: 24px;
+    border-bottom: 1px solid #EEE;
+    vertical-align: middle;
+    letter-spacing: -0.14px;
+}
+
+.activeButton {
+    border-radius: 4px;
+    border: 1px solid #00B087;
+    background: rgba(22, 192, 152, 0.38);
+    color: #008767;
+
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.14px;
+    padding: 4px 12px;
+    width: 80px;
+}
+.activeButton:hover,
+.activeButton:active,
+.inactiveButton:hover,
+.inactiveButton:active{
+    transform: scale(1.1);
+}
+
+.inactiveButton {
+    border-radius: 4px;
+    border: 1px solid #DF0404;
+    background: #FFC5C5;
+    color: #DF0404;
+
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.14px;
+    padding: 4px 12px;
+    width: 80px;
+}

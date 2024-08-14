@@ -1,0 +1,13 @@
+/* ********************************************
+ * Text styles color
+ ******************************************** */
+:root {
+    --main-text:#292D32;
+    --text-lightgray:#B5B7C0;
+    --text-lightgray-navbar: #9197B3;
+    --text-green:#16C098;
+    --secondary-color:#FAFBFF;
+    --main-color:#5932EA;
+    
+
+}
