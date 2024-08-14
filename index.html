@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/crm-test-task/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vanilla App Template</title>
+  
+  <script type="module" crossorigin src="/crm-test-task/commonHelpers.js"></script>
+  <link rel="stylesheet" href="/crm-test-task/assets/index-2051964b.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="sidebar">
+    <div class="sidebar-logo">
+        <svg style="width: 37px; height: 37px;">
+            <use xlink:href="../img/symbol-defs.svg#icon-setting"></use>
+        </svg>
+        <p>Dashboard <span>v.01</span></p>
+    </div>
+    <ul class="sidebar-list">
+
+        <li>
+            <div class="sidebar-list-box">
+            <svg style="width: 24px; height: 24px; stroke: #9197B3; fill: transparent;">
+                <use xlink:href="../img/symbol-defs.svg#icon-key-square"></use>
+            </svg>
+            <a href="#">Dashboard</a>
+            </div>
+        </li>
+        <li>
+            <div class="sidebar-list-box">
+                <svg style="width: 24px; height: 24px;  fill: #9197B3;">
+                    <use xlink:href="../img/symbol-defs.svg#icon-d-square"></use>
+                </svg>
+                <a href="#">Product</a>
+            </div>
+<svg style="width: 16px; height: 16px; stroke: #9197B3;fill: transparent;">
+    <use xlink:href="../img/symbol-defs.svg#icon-chevron-right"></use>
+</svg>
+        </li>
+        <li class="active-item">
+            <div class="sidebar-list-box ">
+                <svg style="width: 24px; height: 24px; fill: white;">
+                    <use xlink:href="../img/symbol-defs.svg#icon-profile-square"></use>
+                </svg>
+                <a href="#">Customers</a>
+            </div>
+<svg style="width: 16px; height: 16px; stroke: #9197B3;fill: transparent;">
+    <use xlink:href="../img/symbol-defs.svg#icon-chevron-right"></use>
+</svg>
+        </li>
+        <li>
+            <div class="sidebar-list-box">
+                <svg style="width: 24px; height: 24px; stroke: #9197B3; fill: transparent;">
+                    <use xlink:href="../img/symbol-defs.svg#icon-wallet-money"></use>
+                </svg>
+                <a href="#">Income</a>
+            </div>
+<svg style="width: 16px; height: 16px; stroke: #9197B3;fill: transparent;">
+    <use xlink:href="../img/symbol-defs.svg#icon-chevron-right"></use>
+</svg>
+        </li>
+        <li>
+            <div class="sidebar-list-box">
+                <svg style="width: 24px; height: 24px; fill:#9197B3;">
+                    <use xlink:href="../img/symbol-defs.svg#icon-discount-shape"></use>
+                </svg>
+                <a href="#">Promote</a>
+            </div>
+<svg style="width: 16px; height: 16px; stroke: #9197B3;fill: transparent;">
+    <use xlink:href="../img/symbol-defs.svg#icon-chevron-right"></use>
+</svg>
+        </li>
+        <li>
+            <div class="sidebar-list-box">
+                <svg style="width: 24px; height: 24px;  fill:#9197B3;">
+                    <use xlink:href="../img/symbol-defs.svg#icon-message-question"></use>
+                </svg>
+                <a href="#">Help</a>
+            </div>
+            <svg style="width: 16px; height: 16px; stroke: #9197B3;fill: transparent;">
+                <use xlink:href="../img/symbol-defs.svg#icon-chevron-right"></use>
+            </svg>
+        </li>
+    </ul>
+
+    <div class="sidebar-user">
+        <img src="../img/photo.png" alt="User photo">
+        <div class="sidebar-user-info">
+            <p class="sidebar-user-info-name">Evano</p>
+            <p class="sidebar-user-info-role">Project Manager</p>
+        </div>
+    </div>
+</div>
+    <div class="content">
+    <h3 class="content-text">Hello Evano 👋🏼,</h3>
+    <div class="content-container">
+        <div class="content-container-header section-header">
+            <div class="section-header-text-content">
+                <h3 class="section-header-text-main">All Customers</h3>
+                <p class="section-header-text">Active Members</p>
+            </div>
+            <div class="search-box">
+
+                <input type="search" placeholder="Search" class="search-input">
+
+            </div>
+        </div>
+        <table>
+    <thead>
+        <tr>
+            <th>Customer Name</th>
+            <th>Company</th>
+            <th>Phone Number</th>
+            <th>Email</th>
+            <th>Country</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Jane Cooper</td>
+            <td>Microsoft</td>
+            <td>(225) 555-0118</td>
+            <td>jane@microsoft.com</td>
+            <td>United States</td>
+            <td>
+                <button class="activeButton" type="button">Active</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Floyd Miles</td>
+            <td>Yahoo</td>
+            <td>(205) 555-0100</td>
+            <td>floyd@yahoo.com</td>
+            <td>Kiribati</td>
+            <td>
+                <button class="inactiveButton" type="button">Inactive</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Ronald Richards</td>
+            <td>Adobe</td>
+            <td>(302) 555-0107</td>
+            <td>ronald@adobe.com</td>
+            <td>Israel</td>
+            <td>
+                <button class="inactiveButton" type="button">Inactive</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Marvin McKinney</td>
+            <td>Tesla</td>
+            <td>(252) 555-0126</td>
+            <td>marvin@tesla.com</td>
+            <td>Iran</td>
+        <td>
+            <button class="activeButton" type="button">Active</button>
+        </td>
+        </tr>
+        <tr>
+            <td>Jerome Bell</td>
+            <td>Google</td>
+            <td>(629) 555-0129</td>
+            <td>jerome@google.com</td>
+            <td>Réunion</td>
+        <td>
+            <button class="activeButton" type="button">Active</button>
+        </td>
+        </tr>
+        <tr>
+            <td>Kathryn Murphy</td>
+            <td>Microsoft</td>
+            <td>(406) 555-0120</td>
+            <td>kathryn@microsoft.com</td>
+            <td>Curaçao</td>
+        <td>
+            <button class="activeButton" type="button">Active</button>
+        </td>
+        </tr>
+        <tr>
+            <td>Jacob Jones</td>
+            <td>Yahoo</td>
+            <td>(208) 555-0112</td>
+            <td>jacob@yahoo.com</td>
+            <td>Brazil</td>
+        <td>
+            <button class="activeButton" type="button">Active</button>
+        </td>
+        </tr>
+        <tr>
+            <td>Kristin Watson</td>
+            <td>Facebook</td>
+            <td>(704) 555-0127</td>
+            <td>kristin@facebook.com</td>
+            <td>Åland Islands</td>
+        <td>
+            <button class="inactiveButton" type="button">Inactive</button>
+        </td>
+        </tr>
+    </tbody>
+</table>
+        <div class="content-container-footer">
+            <p class="content-container-grey-text">Showing data 1 to 8 of 256K entries</p>
+            <div class="pagination-container">
+                <ul class="pagination">
+                    <li> <a href="#">&#60;</a></li>
+                    <li class="active"><a href="#">1</a></li>
+                    <li> <a href="#">2</a></li>
+                    <li> <a href="#">3</a></li>
+                    <li> <a href="#">4</a></li>
+                    <li> <a href="#">...</a></li>
+                    <li> <a href="#">40</a></li>
+                    <li><a href="#">&#62;</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</div>
+  </div>
+  
+</body>
+
+</html>
